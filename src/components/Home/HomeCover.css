@@ -1,0 +1,15 @@
+.Home-text{
+    text-align: center;
+    max-width: 1000px;
+    font-size: 100px;
+}
+
+
+@media (max-width: 808px){
+    .Home-text{
+        font-size: 60px;
+        max-width: 400px;
+        transition: 0.5s;
+        margin: auto;
+    }
+}

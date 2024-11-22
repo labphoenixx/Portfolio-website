@@ -1,0 +1,42 @@
+button{
+    padding: 40px;
+    border-radius: 25px;
+    color: black;
+    width: 100%;
+    cursor: pointer;
+    font-size: large;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.portContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 10px;
+}
+
+.linkedIn{
+    background-color: orange;
+    
+}
+.github{
+    background-color: lime;
+}
+.facebook{
+    background-color: blue;
+}
+.resume{
+    background-color: yellow;
+    margin-bottom: 0;
+}
+
+h1{
+    color: white;
+    margin-bottom: 10px;
+    justify-content: center;
+    text-align: center;
+    font-size: 65px;
+}
